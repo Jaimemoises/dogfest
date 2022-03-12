@@ -1,0 +1,327 @@
+.topleft{
+float: left;
+
+}
+
+.topright{
+float: right;
+margin-right: -10px;
+}
+
+.navbar{
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    display: block;
+}
+
+.banner{
+    padding-top: 0;
+    margin-top: 0;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    display: block;
+
+}
+
+.bottom-bar{
+    padding-top: 0;
+    margin-top: 0;
+    width: 100%;
+    margin-left: 0;
+    display: block;
+
+}
+
+.welcome{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkblue;
+}
+
+.h41{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    text-align: justify;
+  text-justify: inter-word;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 0px;
+    text-indent: 50px;
+}
+
+.h42{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    text-align: justify;
+  text-justify: inter-word;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 50px;
+    text-indent: 50px;
+}
+
+body{
+    background-color: 0;
+    margin: 0;
+}
+
+.container1{
+    display: flex;
+    gap:30px;
+    justify-content: center;
+    margin: 0 auto
+}
+
+.dog1{
+    position: relative;
+    width: 400px;
+}
+
+.dog1__img{
+    display: block;
+    width: 100%;
+
+}
+
+.dog1__overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.25%;
+
+}
+
+.dog1__overlay > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+
+.dog1__overlay:hover{
+    opacity: 1;
+}
+
+.dog1__overlay:hover > * {
+    transform: translateY(0);
+}
+
+.dog1__title{
+    font-size: 1.32em;
+    font-weight: bold;
+}
+
+.dog1__description{
+    font-size: 1.25em;
+    margin-top: 0.25em;
+}
+
+.dog2{
+    position: relative;
+    width: 400px;
+}
+
+.dog2__img{
+    display: block;
+    width: 100%;
+
+}
+
+.dog2__overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.25%;
+
+}
+
+.dog2__overlay > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+
+.dog2__overlay:hover{
+    opacity: 1;
+}
+
+.dog2__overlay:hover > * {
+    transform: translateY(0);
+}
+
+.dog2__title{
+    font-size: 1.32em;
+    font-weight: bold;
+}
+
+.dog2__description{
+    font-size: 1.25em;
+    margin-top: 0.25em;
+}
+
+.container2{
+    display: flex;
+    gap:30px;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    
+}
+
+.dog3{
+    position: relative;
+    width: 400px;
+}
+
+.dog3__img{
+    display: block;
+    width: 100%;
+
+}
+
+.dog3__overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.25%;
+
+}
+
+.dog3__overlay > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+
+.dog3__overlay:hover{
+    opacity: 1;
+}
+
+.dog3__overlay:hover > * {
+    transform: translateY(0);
+}
+
+.dog3__title{
+    font-size: 1.32em;
+    font-weight: bold;
+}
+
+.dog3__description{
+    font-size: 1.32em;
+    margin-top: 0.25em;
+}
+
+.dog4{
+    position: relative;
+    width: 400px;
+}
+
+.dog4__img{
+    display: block;
+    width: 100%;
+
+}
+
+.dog4__overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.25%;
+
+}
+
+.dog4__overlay > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+
+.dog4__overlay:hover{
+    opacity: 1;
+}
+
+.dog4__overlay:hover > * {
+    transform: translateY(0);
+}
+
+.dog4__title{
+    font-size: 1.32em;
+    font-weight: bold;
+}
+
+.dog4__description{
+    font-size: 1.25em;
+    margin-top: 0.25em;
+}
+
+
+
+.parent{
+display: flex;
+justify-content: center;
+height: 500px;
+}
+
+.child1{
+position:absolute;
+align-items: center;
+justify-content: center;
+margin-top: 50px;
+}
+
+.child2{
+position:absolute;
+align-items: center;
+justify-content: center;
+margin-top: 100px;
+
+}
+
+.back1{
+height: 400px;
+}
